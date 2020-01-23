@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  /* automatically inherit box-sizing from the body element */
+  box-sizing: inherit;
+}
+
+/* setting the root font-size  */
+html {
+  /* change to 1px so that we know that 1rem will equal 10px */
+  /* change the 10px to a percentage which will translate to the percentage given by the browser */
+  /* 10/16*100 */
+  /* this method is used when a user decides to adjust the font size on the browser  */
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
